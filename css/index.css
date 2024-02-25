@@ -22,9 +22,9 @@ body {
   }
   
   .title {
+    top: 30px;
     font-weight: bold;
     font-size: 70px;
-    margin-top: -460px; /* Agrega un margen inferior al título */
     position: absolute;
   }
   
