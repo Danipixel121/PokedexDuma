@@ -23,8 +23,9 @@ body {
   
   .title {
     font-weight: bold;
-    font-size: 60px;
-    margin-top: -200px; /* Agrega un margen inferior al título */
+    font-size: 70px;
+    margin-top: -460px; /* Agrega un margen inferior al título */
+    position: absolute;
   }
   
   .boton {
