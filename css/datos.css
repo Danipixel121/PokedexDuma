@@ -12,14 +12,18 @@ body {
 .title {
     top: 30px;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 30px;
     position: absolute;
     display: flex;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid black;
   }
 
   @media screen and (min-width: 300px) {
     .title {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
@@ -37,6 +41,7 @@ body {
     top: 200px; /* Ajusta la posición según sea necesario */
     font-size: 30px; /* Ajusta el tamaño de fuente según sea necesario */
     line-height: 1.5; /* Espaciado entre líneas */
+    border: 2px solid black;
   }
 
   .lenguaje {
@@ -45,3 +50,16 @@ body {
     font-size: 10px; /* Ajusta el tamaño de fuente según sea necesario */
     line-height: 1.5; /* Espaciado entre líneas */
   }
+  
+  .boton {
+    position:absolute;
+    top: 450px;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+
+  .boton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .25);
+    cursor: pointer;
+}
