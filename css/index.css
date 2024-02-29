@@ -23,11 +23,28 @@ body {
   }
   
   .title {
-    top: 30px;
-    font-weight: bold;
-    font-size: 70px;
-    position: absolute;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    padding:50px; /* Ajusta el relleno según tu preferencia */
+    background-color: black; /* Color de fondo negro */
+    color: #fff; /* Color del texto, ajusta según tu preferencia */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    margin: 0; /* Asegura que no haya margen externo */
+    transform: translateY(-50%);
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+@media screen and (min-width: 400px) {
+  .title {
+      font-size: 60px;
+      top: 15%;
   }
+}
   
   .boton {
     border-radius: 30px;
