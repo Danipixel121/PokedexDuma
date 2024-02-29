@@ -37,6 +37,7 @@ body {
     display: flex;
     align-items: center; /* Centra verticalmente */
     justify-content: center; /* Centra horizontalmente */
+    border-radius:30px;
 }
 
 @media screen and (min-width: 400px) {
